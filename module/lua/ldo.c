@@ -59,6 +59,8 @@
 #define	JMP_BUF_CNT	65
 #elif defined(__mips__)
 #define JMP_BUF_CNT	12
+#elif defined(__s390x__)
+#define JMP_BUF_CNT	9
 #else
 #define	JMP_BUF_CNT	1
 #endif

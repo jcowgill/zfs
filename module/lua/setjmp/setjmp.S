@@ -12,4 +12,6 @@
 #include "setjmp_ppc.S"
 #elif defined(__mips__)
 #include "setjmp_mips.S"
+#elif defined(__s390x__)
+#include "setjmp_s390x.S"
 #endif
